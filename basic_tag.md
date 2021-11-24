@@ -95,14 +95,15 @@ meta_tag
 
 - Main Content
 ```html
-<main>...</main>
-
 <main>
-  <article>
-     <section>
-     .
-     </section>
-  <article>
+
+1. <article>...</article>
+  
+2. <section>...</section>
+  
+<!--常用於廣告-->
+3. <aside>...</aside>
+  
 </main>
 ```
 
