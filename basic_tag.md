@@ -1,8 +1,12 @@
-meta_tag
+## meta
 - Define metadata about file
-- \<meta charset = 'UTF-8'>
-- \<meta name = 'description' content = 'This is an awesome website'>
+```html
+<meta charset = 'UTF-8'
 
+<!--讓別人知道關於網站的一些資訊-->
+<meta name = 'description' content = 'This is an awesome website'>
+<meta name = 'author' content = 'Tonny'>
+```
 ## 標題及段落
 ```
 1. <h1>...</h1>
