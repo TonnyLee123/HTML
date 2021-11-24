@@ -146,15 +146,18 @@ attrs => poster = 'Scrim.jpg'
   </dl>
   ```
 ## Table
+- <caption> This is title of the table!!! </caption>
 - \<tr>...\</tr> (table row)
+- \<th>...\</th> (table header)
 - \<td>...\</td> (table data) -> column
 ```html
 <table>
-  <!--first row with three column-->
+  <caption> This is title of the table!!! </caption>
+  <!--first row with three column (title )-->
   <tr>
-    <td>name</td>
-    <td>age</td>
-    <td>birth_date</td>  
+    <th>name</th>
+    <th>age</th>
+    <th>birth_date</th>  
   </tr>
   <!--second row with three column-->
   <tr>
