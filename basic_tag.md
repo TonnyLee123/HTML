@@ -46,7 +46,7 @@ meta_tag
 ```
 
 ## Link
-1. <a href = '網址'>前往新網址的媒介(如文字，照片等等)</a>
+1. \<a href = '網址'>前往新網址的媒介(如文字，照片等等)\</a>
 ```html
 <a href = 'https://www.google.com'> Google's Homepage (text for link)</a>
 ```
