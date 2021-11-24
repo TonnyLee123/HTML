@@ -1,7 +1,7 @@
 meta_tag
 - Define metadata about file
-- <meta charset = 'UTF-8'>
-- <meta name = 'description' content = 'This is an awesome website'>
+- \<meta charset = 'UTF-8'>
+- \<meta name = 'description' content = 'This is an awesome website'>
 
 ## 標題及段落
 ```
@@ -48,4 +48,8 @@ meta_tag
 - 指數
 - <p>10<sup>2</sup></p>
 ```
-
+## 其他標籤
+- Comment
+```
+1. <!-- ... -->
+```
