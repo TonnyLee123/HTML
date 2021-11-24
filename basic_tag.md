@@ -59,3 +59,37 @@ meta_tag
 ```html
 <body style = 'background-color : blue'> ... </body>
 ```
+
+# Layout
+- Formatting a page
+```
+<body>
+  <header>
+  
+  </header>
+  
+  <main>
+  
+  </main>
+  
+  <footer>
+  
+  </footer>
+
+</body>
+```
+- Header
+```html
+<header>...</header>
+```
+
+- Main Content
+```html
+<main>...</main>
+```
+
+- Footer
+  - Additional navigational links. 
+```html
+<footer>...</footer>
+```
