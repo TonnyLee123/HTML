@@ -150,21 +150,30 @@ attrs => poster = 'Scrim.jpg'
 - \<tr>...\</tr> (table row)
 - \<th>...\</th> (table header)
 - \<td>...\</td> (table data) -> column
+- \<thead>...\</thead> 
+  - 用於方便查看，並無其他功能。
+- \<tbody>...\</tbody>
+  - 用於方便查看，並無其他功能。
 ```html
 <table>
-  <caption> This is title of the table!!! </caption>
-  <!--first row with three column (title )-->
-  <tr>
-    <th>name</th>
-    <th>age</th>
-    <th>birth_date</th>  
-  </tr>
+  <thead>
+    <caption> This is title of the table!!! </caption>
+    <!--first row with three column (title )-->
+    <tr>
+      <th>name</th>
+      <th>age</th>
+      <th>birth_date</th>  
+    </tr>
+  </thead>
+  
+  <tbody>
   <!--second row with three column-->
-  <tr>
-    <td>Tonny_Lee</td>
-    <td>20</td>
-    <td>2021-10-03</td>  
-  </tr>
+    <tr>
+      <td>Tonny_Lee</td>
+      <td>20</td>
+      <td>2021-10-03</td>  
+    </tr>
+  </tbody>
 </table>
 ```
 ## 其他標籤
