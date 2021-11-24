@@ -106,6 +106,12 @@ attrs => width = '300 (pixels)'
 ```
 attrs => poster = 'Scrim.jpg'
 ```
+6. 載入YT影片
+- 對影片點右鍵
+- Copy embed code
+  - <iframe>...</iframe>
+  - 可更改<iframe>裡的內容
+- Paste到HTML裡
 ## 其他標籤
 ```
 1. <!-- ... -->
