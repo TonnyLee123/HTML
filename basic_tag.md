@@ -133,7 +133,18 @@ attrs => poster = 'Scrim.jpg'
   </ol>
   ```
   - attrs => type = 'A'
-  
+- Description list
+  - Description Term
+  - Describe DT
+```html
+  <dl>
+    <dt>Apples</dt>
+    <dd>They are sweet!!</dd>
+    <dt>Oranges</dt>
+    <dd>They are from TW!!</dd>
+    
+  </dl>
+  ```
  
 ## 其他標籤
 ```
