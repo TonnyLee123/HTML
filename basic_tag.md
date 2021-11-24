@@ -285,4 +285,4 @@ attrs => poster = 'Scrim.jpg'
 ```html
 <footer>...</footer>
 ```
-['https://www.youtube.com/watch?v=pQN-pnXPaVg'](Reference)
+[Reference]('https://www.youtube.com/watch?v=pQN-pnXPaVg')
