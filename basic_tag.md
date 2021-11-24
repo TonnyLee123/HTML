@@ -178,6 +178,31 @@ attrs => poster = 'Scrim.jpg'
   </tbody>
 </table>
 ```
+## span % div
+- Two ways to display HTML elements
+  - block element 
+  - inline
+```html
+<!--lnline elements: 第二個連結在第一個連結的旁邊-->
+<a href = '#'>link1</a>
+<a href = '#'>link2</a>
+
+<!--block elements第二個段落在第二個段落的下面-->
+<p>Paragraph</p>
+<p>Paragraph</p>
+```
+- span
+  - inline container
+```html
+<span>link1</span>
+<span>link2</span>
+```
+- div
+  - block container
+```html
+<div>Paragraph1</div>
+<div>Paragraph2</div>
+```
 ## 其他標籤
 ```
 1. <!-- ... -->
