@@ -61,7 +61,7 @@ href = 'page2.html'
 ```
 
 ## Image
-1. <img src = 'location of img'>
+1. \<img src = 'location of img'>\</img>
 ```html
 <!-- link to images that are on Internet-->
 <img src = 'https://lastfm.freetls.fastly.net/i/u/770x0/16e4fa745320b89781aec0536bd982d6.jpg'></img>
@@ -82,8 +82,30 @@ attrs => height = '50'
 attrs => width = '50'
 ```
 
+## Include (YT) Video into website 
+1. \<video src = 'location of file'>...\<video>
+```html
+<!--加入 controls 才會顯示播放以及其他控制功能-->
+<video src = "1000_rounds.mp4" controls></video>
+```
+2. 自動播放
+- autoplay
+```html
+<video src = "1000_rounds.mp4" autoplay controls></video>
+```
+3. 重複播放
+- loop
+<video src = "1000_rounds.mp4" loop controls></video>
 
-
+4. 調整影片的size
+```
+attrs => width = '300 (pixels)'
+```
+5. Thumbnail(縮圖)
+- 影片開始前所顯示的圖片
+```
+attrs => poster = 'Scrim.jpg'
+```
 ## 其他標籤
 ```
 1. <!-- ... -->
