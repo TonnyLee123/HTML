@@ -113,6 +113,9 @@ attrs => poster = 'Scrim.jpg'
   - <iframe>...</iframe>
   - 可更改<iframe>裡的內容
 - Paste到HTML裡
+***
+- <iframe src = 'http://....'>...</iframe>
+  - Display another website inside of your web page.
 
 ## List 
 - Unorder List
