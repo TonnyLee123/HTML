@@ -44,6 +44,16 @@ meta_tag
 - 指數
 - <p>10<sup>2</sup></p>
 ```
+
+## Link
+1. <a href = '網址'>前往新網址的媒介(如文字，照片等等)</a>
+```html
+<a href = 'https://www.google.com'> Google's Homepage (text for link)</a>
+```
+2. Open Link in a new tab
+```
+attrs = target = '_blank'
+```
 ## 其他標籤
 ```
 1. <!-- ... -->
