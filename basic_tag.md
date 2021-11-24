@@ -114,7 +114,7 @@ attrs => poster = 'Scrim.jpg'
   - 可更改<iframe>裡的內容
 - Paste到HTML裡
 
-7. List 
+## List 
 - Unorder List
   ```html
   <ul>
@@ -145,7 +145,25 @@ attrs => poster = 'Scrim.jpg'
     
   </dl>
   ```
- 
+## Table
+- <tr>...</tr> (table row)
+- <td>...</td> (table data) -> column
+```html
+<table>
+  <!--first row with three column-->
+  <tr>
+    <td>name</td>
+    <td>age</td>
+    <td>birth_date</td>  
+  </tr>
+  <!--second row with three column-->
+  <tr>
+    <td>Tonny_Lee</td>
+    <td>20</td>
+    <td>2021-10-03</td>  
+  </tr>
+</table>
+```
 ## 其他標籤
 ```
 1. <!-- ... -->
