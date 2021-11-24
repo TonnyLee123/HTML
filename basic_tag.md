@@ -54,6 +54,11 @@ meta_tag
 ```
 attrs = target = '_blank'
 ```
+3. Link to other pages on our website. 
+- 注意Page2.html和index.html在同個folder.
+```
+href = 'page2.html'
+```
 ## 其他標籤
 ```
 1. <!-- ... -->
