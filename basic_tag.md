@@ -49,3 +49,13 @@ meta_tag
 1. <!-- ... -->
 - Comment
 ```
+
+# Style & Color
+- Change text's color
+```html
+<p style = 'color : blue'>You can style your HTML.</p>
+``` 
+- Change background's color
+```html
+<body style = 'background-color : blue'> ... </body>
+```
