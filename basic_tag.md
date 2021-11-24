@@ -75,6 +75,15 @@ href = 'page2.html'
 ```html
 attrs => alt = 'This is a person.'
 ```
+3. Adjust height/width and Aspect Ratio(縱橫比)
+- 若只調整寬或高其中一個，點腦會自動依照Aspect Ratio設定另外一個值。
+```
+attrs => height = '50'
+attrs => width = '50'
+```
+
+
+
 ## 其他標籤
 ```
 1. <!-- ... -->
