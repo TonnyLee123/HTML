@@ -6,7 +6,7 @@ meta_tag
 ## 標題及段落
 ```
 1. <h1>...</h1>
-- Header
+- Header 
 - h1 ~ h2
 
 2. <p>...</p>
@@ -80,13 +80,30 @@ meta_tag
 ```
 - Header
   - Navigation menu 
+    - 放各種連結 
 ```html
 <header>...</header>
+
+<header>
+   <nav>
+     .
+     .
+     .
+   </nav>
+</header>
 ```
 
 - Main Content
 ```html
 <main>...</main>
+
+<main>
+  <article>
+     <section>
+     .
+     </section>
+  <article>
+</main>
 ```
 
 - Footer
