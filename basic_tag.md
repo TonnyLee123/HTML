@@ -52,12 +52,28 @@ meta_tag
 ```
 2. Open Link in a new tab
 ```
-attrs = target = '_blank'
+attrs => target = '_blank'
 ```
 3. Link to other pages on our website. 
 - 注意Page2.html和index.html在同個folder.
 ```
 href = 'page2.html'
+```
+
+## Image
+1. <img src = 'location of img'>
+```html
+<!-- link to images that are on Internet-->
+<img src = 'https://lastfm.freetls.fastly.net/i/u/770x0/16e4fa745320b89781aec0536bd982d6.jpg'></img>
+
+<!-- link to images that are on our computer -->
+<!--- 注意Scrime.jpg和index.html在同個folder-->
+<img src = 'Scrime.jpg'></img>
+
+```
+2. Show the text when the image don't show up because of some error.
+```html
+attrs => alt = 'This is a person.'
 ```
 ## 其他標籤
 ```
