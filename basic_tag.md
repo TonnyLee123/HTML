@@ -146,10 +146,12 @@ attrs => poster = 'Scrim.jpg'
   </dl>
   ```
 ## Table
-- <caption> This is title of the table!!! </caption>
+- \<caption> Table標題 \</caption>
 - \<tr>...\</tr> (table row)
+***
 - \<th>...\</th> (table header)
 - \<td>...\</td> (table data) -> column
+***
 - \<thead>...\</thead> 
   - 用於方便查看，並無其他功能。
 - \<tbody>...\</tbody>
