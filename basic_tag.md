@@ -6,6 +6,9 @@
 <!--讓別人知道關於網站的一些資訊-->
 <meta name = 'description' content = 'This is an awesome website'>
 <meta name = 'author' content = 'Tonny'>
+
+<!--Control how website is displayed on different devices.-->
+<meta name = 'viewport' content = 'width=device-width, initial-scale=1.0'>
 ```
 ## 標題及段落
 ```
