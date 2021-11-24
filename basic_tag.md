@@ -146,8 +146,8 @@ attrs => poster = 'Scrim.jpg'
   </dl>
   ```
 ## Table
-- <tr>...</tr> (table row)
-- <td>...</td> (table data) -> column
+- \<tr>...\</tr> (table row)
+- \<td>...\</td> (table data) -> column
 ```html
 <table>
   <!--first row with three column-->
