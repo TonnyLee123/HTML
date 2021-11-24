@@ -37,5 +37,15 @@ meta_tag
 
 4. <small>...</small>
 - 縮小字體
+
+5. <sub>...</sub>
+- Subscript
+- 縮小字體
+- <p>H<sub>2</sub>O</p>
+
+6. <sup>...</sup>
+- Superscript
+- 指數
+- <p>10<sup>2</sup></p>
 ```
 
