@@ -207,6 +207,10 @@ attrs => poster = 'Scrim.jpg'
 <span>link1</span>
 <span>link2</span>
 ```
+  - 功能: 顏色部分文字內容，以及其他(如字體大小，粗體等等)
+ ```html
+ <p>My name is <span style = 'color:blue'>Tonny Lee</span>, and my favorite fruit is apple.</p>
+ ```
 - div
   - block container
 ```html
