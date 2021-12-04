@@ -1,4 +1,7 @@
+[教學](https://www.youtube.com/watch?v=_xkSvufmjEs)
+
 ```html
+
 <!--Normalize ，針對不同瀏覽器與各版本之間不相容的Tag進行微調
 	使不同瀏覽器之間也能呈現相同網頁。-->
 
@@ -122,11 +125,11 @@
 		<footer>
 			<a href = 'mailto: a91802tony@gmail.com' class = 'footer__link'>a91802tony@gmail.com</a>
 
-			<ul class = 'social-links'>
-				<li><a href = '#'>a</a></li>
-				<li><a href = '#'>b</a></li>
-				<li><a href = '#'>c</a></li>
-				<li><a href = '#'>d</a></li>
+			<ul class = 'social-list'>
+				<li class = 'social-list__item'><a href = '#' class = 'social-list__link'>a</a></li>
+				<li class = 'social-list__item'><a href = '#' class = 'social-list__link'>b</a></li>
+				<li class = 'social-list__item'><a href = '#' class = 'social-list__link'>c</a></li>
+				<li class = 'social-list__item'><a href = '#' class = 'social-list__link'>d</a></li>
 			</ul>
 		</foolter>
 	</body>
