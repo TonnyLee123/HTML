@@ -1,0 +1,134 @@
+```html
+<!--Normalize ，針對不同瀏覽器與各版本之間不相容的Tag進行微調
+	使不同瀏覽器之間也能呈現相同網頁。-->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = 'UTF-8'>
+
+		<!--使用手機或平板等等裝置打開網頁時，能呈現相對比例的網頁-->
+		<meta name = 'viewport' content = 'width = device-width', initial-scale = '1.0'>
+		<title>Tonny Lee Portfolio Website</title>
+	</head>
+	
+	<body>
+		<!--介绍性内容(Logo，搜索框，作者名稱, 等等)-->
+		<hearder>
+			<div class = 'logo'>
+				<img src = 'https://upload.wikimedia.org/wikipedia/commons/a/ab/Apple-logo.png'>
+			</div>
+			<!--aria-label: 告訴 '讀屏軟件' 某個元素是什麼(for accessibility)-->
+			<button class = 'nav-toggle' aria-label = 'toggle navigation'>
+				<span class = 'hamburger'></span>
+			</button>			
+			<!--提供導航欄連結的區域，這些連結最終抵達的只是當前網頁的某個區塊-->
+			<nav class = 'nav'>
+				<ul class = 'nav__list'>
+					<li class = 'nav__item'><a href = 'ghome' class = 'nav__link'>None</a></li>
+					<li class = 'nav__item'><a href = 'g' class = 'nav__link'>My Services</a></li>
+					<li class = 'nav__item'><a href = 'g' class = 'nav__link'>About me</a></li>
+					<li class = 'nav__item'><a href = 'g' class = 'nav__link'>My Work</a></li>
+				</ul>		
+			</nav>	
+		</hearder>
+
+		<!--introduction-->
+		<!--用在 HTML 文件中有明顯含義的-->
+		<!--Use id for 'Anchoring'-->
+		<section class = 'intro' id = 'home'>
+			<h1 class = 'section__title section__title--intro'>
+				Hi, I am <strong>Tonny Lee</strong>
+			</h1>
+			<p class = 'section__subtitle section__subtitle--intro'>front-end dev</p>
+			<img src = 'https://megapx-assets.dcard.tw/images/19357807-6860-42a3-b1ec-25384ab32efe/640.jpeg'>
+		</section>
+
+		<!--My Services-->
+		<section class = 'my-services' id = 'services'>
+			<h2 class = 'section__title section__title--services'>What I do</h2>
+			<div class = 'services'>
+				<div class = 'service'>
+					<h3>Design + Development</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				</div>
+
+				<div class = 'service'>
+					<h3>E-Commerce</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				</div>
+
+				<div class = 'service'>
+					<h3>WordPress</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				</div>
+			</div>
+			<a href = '#work' class = 'btn'>See my work</a>
+		</section>
+
+		<!--About me-->
+		<section class = 'about-me' id = 'about_me'>
+			<h2 class = 'section__title section__title--about'>Who I am</h2>
+			<p class = 'section__subtitle section__subtitle--about'></p>
+			<div class = 'about-me__body'>
+				<p></p>
+				<p></p>
+			</div>
+			<img src = 'https://obs.line-scdn.net/0hpoMDAGAjL0BwPQR7eylQF0prLC9DUTxDFAt-QzNTcXQICToXS15iLlM0JXENDWgeGVhgIVM1NHENBWEVGVli/w644'>
+		</section>
+
+		<!--My work-->
+		<section class = 'my-work' id = 'my_work'>
+			<h2 class = 'section__title'>My work</h2>
+			<p class = 'section__subtitle'>A selection of my range of work</p>
+
+			<div class = 'portfolio'>
+				<!--01-->
+				<a href = '#' class = 'portfolio__item'>
+					<img src = 'https://cf.shopee.tw/file/8b3c82fd7cb19c6f38fe6e9c852ffc5d' class = 'portfolio__img'>
+				</a>
+				<!--02-->
+				<a href = '#' class = 'portfolio__item'>
+					<img src = 'https://cf.shopee.tw/file/8b3c82fd7cb19c6f38fe6e9c852ffc5d' class = 'portfolio__img'>
+				</a>
+				<!--03-->
+				<a href = '#' class = 'portfolio__item'>
+					<img src = 'https://cf.shopee.tw/file/8b3c82fd7cb19c6f38fe6e9c852ffc5d' class = 'portfolio__img'>
+				</a>
+				<!--04-->
+				<a href = '#' class = 'portfolio__item'>
+					<img src = 'https://cf.shopee.tw/file/8b3c82fd7cb19c6f38fe6e9c852ffc5d' class = 'portfolio__img'>
+				</a>
+				<!--05-->
+				<a href = '#' class = 'portfolio__item'>
+					<img src = 'https://cf.shopee.tw/file/8b3c82fd7cb19c6f38fe6e9c852ffc5d' class = 'portfolio__img'>
+				</a>
+				<!--06-->
+				<a href = '#' class = 'portfolio__item'>
+					<img src = 'https://cf.shopee.tw/file/8b3c82fd7cb19c6f38fe6e9c852ffc5d' class = 'portfolio__img'>
+				</a>
+				<!--07-->
+				<a href = '#' class = 'portfolio__item'>
+					<img src = 'https://cf.shopee.tw/file/8b3c82fd7cb19c6f38fe6e9c852ffc5d' class = 'portfolio__img'>
+				</a>
+				<!--08-->
+				<a href = '#' class = 'portfolio__item'>
+					<img src = 'https://cf.shopee.tw/file/8b3c82fd7cb19c6f38fe6e9c852ffc5d' class = 'portfolio__img'>
+				</a>
+			</div>
+		</section>
+
+		<!--mailto:-->
+		<footer>
+			<a href = 'mailto: a91802tony@gmail.com' class = 'footer__link'>a91802tony@gmail.com</a>
+
+			<ul class = 'social-links'>
+				<li><a href = '#'>a</a></li>
+				<li><a href = '#'>b</a></li>
+				<li><a href = '#'>c</a></li>
+				<li><a href = '#'>d</a></li>
+			</ul>
+		</foolter>
+	</body>
+</html>
+```
