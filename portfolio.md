@@ -1,5 +1,17 @@
-[教學](https://www.youtube.com/watch?v=_xkSvufmjEs)
-
+[教學](https://www.youtube.com/watch?v=_xkSvufmjEs)  
+[範本](https://xd.adobe.com/spec/6ebfeb86-6eeb-4b69-77dc-ecf4c4506bcc-188e/screen/530dc661-57b9-43cc-a9c6-e3113aaaec9e/specs/)
+### 其他參考資料
+[1](https://www.youtube.com/watch?v=K1HchLD6fHI)
+[2](https://www.youtube.com/watch?v=tcskp-ncN0I)
+[3](https://www.youtube.com/watch?v=r_hYR53r61M)
+[4](https://www.youtube.com/watch?v=KgRENOnSCxE)
+[5](https://www.youtube.com/watch?v=D-h8L5hgW-w)
+[6](https://www.youtube.com/watch?v=1wfeqDyMUx4)
+[7](https://www.youtube.com/watch?v=ZFQkb26UD1Y)
+[8](https://www.youtube.com/channel/UCvoKIJfodk4IhNAAjrBfx-g)
+[9](https://www.youtube.com/watch?v=ZFQkb26UD1Y)
+[10](https://www.youtube.com/watch?v=hqYIe5Y76oY)
+[11](https://tw.strikingly.com/?utm_source=google-sem&utm_medium=cpc&utm_campaign=v2-s-rest-computers-search-lo-website_category-zhtw&utm_content=v2a-s-rest-computers-search-lo-website_category-category_portfolio_website_v1-zhtw&utm_term=make%20a%20porfolio&gclid=EAIaIQobChMI-7L9-bXJ9AIVosBMAh3g1ArbEAAYASAAEgLKo_D_BwE)
 ```html
 
 <!--Normalize ，針對不同瀏覽器與各版本之間不相容的Tag進行微調
