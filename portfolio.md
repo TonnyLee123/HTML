@@ -147,3 +147,43 @@
 	</body>
 </html>
 ```
+### css
+```css
+*,
+*:: before,
+*:: after{
+
+	box-sizing: border-box;
+}
+
+// Set up custom properties
+:root{
+	--font-family-primary: ;
+	--font-family-secondary: ;
+
+	--font-width-regular: 300;
+	--f-bold: 900;
+
+	-- clr-background: #fff;
+	-- clr-text: #303030;
+	-- clr-accent:  #16e0bd;
+
+	--font-size-h1: 3rem;
+	--font-size-h2: 2.25rem;
+	--font-size-h3: 1.25rem;
+	--font-size-body: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+body{
+	background: var(--clr-dark); 
+}
+```
