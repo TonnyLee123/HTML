@@ -204,3 +204,27 @@ You can also use media queries to specify that certain styles are only for print
 
 Media features provide more specific details to media queries, by allowing to test for a specific feature of the user agent or display device. 
 - For example, apply styles to only those screens that are greater, or smaller, than a certain width.
+- CSS Syntax
+```
+@media not|only mediatype and (mediafeature and|or|not mediafeature) {
+  Css-code
+  
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+```
+
+
+@media rule
+- define different style rules for different media types.
+- Examples: You could have one set of style rules for computer screens, one for printers, one for television-type devices, and so on.
+
+Media Queries
+- Instead of looking for a type of device, they look at the capability of the device.
+- such as:
+    - width and height of the viewport
+    - width and height of the device
+    - orientation (is the tablet/phone in landscape or portrait mode?)
+    - resolution
+- Using media queries are a popular technique for delivering a tailored style sheet to desktops, laptops, tablets, and mobile phones (such as iPhone and Android phones).
