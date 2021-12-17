@@ -1,7 +1,6 @@
 [教學](https://www.youtube.com/watch?v=_xkSvufmjEs)  
 [範本](https://xd.adobe.com/spec/6ebfeb86-6eeb-4b69-77dc-ecf4c4506bcc-188e/screen/530dc661-57b9-43cc-a9c6-e3113aaaec9e/specs/)
 ### 其他參考資料
-[1](https://www.youtube.com/watch?v=K1HchLD6fHI)
 [2](https://www.youtube.com/watch?v=tcskp-ncN0I)
 [7](https://www.youtube.com/watch?v=ZFQkb26UD1Y)
 [10](https://www.youtube.com/watch?v=hqYIe5Y76oY)
