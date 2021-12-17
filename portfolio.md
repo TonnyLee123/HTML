@@ -3,7 +3,6 @@
 ### 其他參考資料
 [1](https://www.youtube.com/watch?v=K1HchLD6fHI)
 [2](https://www.youtube.com/watch?v=tcskp-ncN0I)
-[3](https://www.youtube.com/watch?v=r_hYR53r61M)
 [4](https://www.youtube.com/watch?v=KgRENOnSCxE)
 [5](https://www.youtube.com/watch?v=D-h8L5hgW-w)
 [6](https://www.youtube.com/watch?v=1wfeqDyMUx4)
