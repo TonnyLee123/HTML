@@ -19,14 +19,38 @@
 2. <p>...</p>
 - Paragraph
 
-3. <br/>
+3.<pre>...</pre>
+- Preformatted Text
+- Fixed-width font
+- Preserves spaces and line breaks
+
+4. <br>
 - Single tag
 - Create new line
 
-4. <hr/>
+5. <hr>
 - Horizontal line
 ```
+範例
+```html
+<h1>Heading 1</h1>
+<p>This is a paragraph.</p>
 
+<hr>
+
+<h2>Heading 2</h2>
+<p>This is <br>a paragraph.</p>
+
+<hr>
+
+<pre>
+My Bonnie lies over the ocean.
+ My Bonnie lies over the sea.
+
+  My Bonnie lies over the ocean. 
+   Oh, bring back my Bonnie to me.   
+</pre>
+```
 ## 字型編輯
 ```
 1. <b>...</b>
