@@ -37,7 +37,7 @@ function displayResult() {
 displayResult()，透過getElementById("myHeader")找到id為myHeader的元素。  
 然後再修改其內容。  
 ## <a href = 'https://www.w3schools.com/html/tryit.asp?filename=tryhtml_id_bookmark'>功能三 Bookmarks</a>
-- allow readers to jump to specific parts of a webpage.
+Allow readers to jump to specific parts of a webpage.
 ```
 <a href="#C4">Jump to Chapter 4</a>
 <h2 id="C4">Chapter 4</h2>
