@@ -5,7 +5,7 @@ style="property:value;"
 The property is a CSS property. The value is a CSS value.
 ```
 
-# 2. 常見的 Style Attribute 
+## 2. 常見的 Style Attribute 
 - Text's color
 ```html
 <p style = 'color : blue;'>You can style your HTML.</p>
@@ -26,4 +26,22 @@ The property is a CSS property. The value is a CSS value.
 - Text Alignment
 ```html
 <p style="text-align:center;">...</p>
+```
+
+# Text Formatting
+```
+<b> - Bold text
+<strong> - Important text (Blod text)
+<i> - Italic text
+<mark> - Marked text
+<small> - Smaller text
+<del> - Deleted text
+<ins> - underline text
+<sub> - Subscript text
+<sup> - Superscript text
+```
+## 範例
+```html
+<p>H<sub>2</sub>O</p>
+<p>H<sup>2</sup>O</p>
 ```
