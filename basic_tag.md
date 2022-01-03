@@ -10,11 +10,11 @@
 <!--Control how website is displayed on different devices.-->
 <meta name = 'viewport' content = 'width=device-width, initial-scale=1.0'>
 ```
-## 標題及段落
+## 1. Headings
 ```
 1. <h1>...</h1>
 - Header 
-- h1 ~ h2
+- h1 ~ h6
 
 2. <p>...</p>
 - Paragraph
