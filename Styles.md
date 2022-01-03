@@ -27,7 +27,6 @@ The property is a CSS property. The value is a CSS value.
 ```html
 <p style="text-align:center;">...</p>
 ```
-
 # 2. Text Formatting
 ```
 <b> - Bold text
