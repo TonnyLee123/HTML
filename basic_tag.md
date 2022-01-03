@@ -10,7 +10,7 @@
 <!--Control how website is displayed on different devices.-->
 <meta name = 'viewport' content = 'width=device-width, initial-scale=1.0'>
 ```
-## 1. Headings
+## 1. Headings and Paragraphs
 ```
 1. <h1>...</h1>
 - Header 
