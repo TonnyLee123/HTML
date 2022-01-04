@@ -18,3 +18,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nu
 
 ### 來源
 [https://www.w3schools.com/cssref/tryit.asp?filename=trycss_float](來源)
+# Float Next To Each Other
+Normally \<div> elements will be displayed on top of each other. However, if we use **float: left** we can let elements float next to each other
+
+https://www.w3schools.com/css/tryit.asp?filename=trycss_layout_float3
