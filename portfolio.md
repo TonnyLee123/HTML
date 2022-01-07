@@ -181,43 +181,46 @@ body{
 	background: var(--clr-dark); 
 }
 ```
-
-### @media
-- used in media queries to apply different styles for different media types/devices.
-
-Media queries can be used to check many things, such as:
-
-- width and height of the viewport
-- width and height of the device
-- orientation (is the tablet/phone in landscape or portrait mode?)(方向（平板電腦/手機處於橫向還是縱向模式？）)
-- resolution
-Using media queries are a popular technique for delivering a tailored style sheet(提供定制的樣式表) (responsive web design) to desktops, laptops, tablets, and mobile phones.
-
-You can also use media queries to specify that certain styles are only for printed documents or for screen readers (mediatype: print, screen, or speech).
-
-Media features provide more specific details to media queries, by allowing to test for a specific feature of the user agent or display device. 
-- For example, apply styles to only those screens that are greater, or smaller, than a certain width.
-- CSS Syntax
+```css
+.about-me {
+	border:red 1px solid;
+	max-width: 1000px;
+    margin: 0 auto;
+}
+.about-me_img {
+	box-shadow: 
+}
+/*當螢幕大小>=600px, 執行下列*/
+@media(min-width: 600px) {
+	.about-me{
+    	display: grid;
+        grid-template-columns: 1fr 200px;
+        grid-template-area:
+        	"title img"
+            "subtitle img"
+            "text img";
+        grid-columns-gap: 2em
+    }
+    
+    .section__title--about{
+    	grid-area: title;
+    }
+    
+    .section__subtitle--about{
+    	grid-colum: 1/-1;
+        grid-row: 2;
+        position: relative;
+        left: -2em;
+        width: calc(100% + 4em)
+        padding-left: 1em
+        padding-right: calc(100px + 4em)
+    }
+    
+    .about-me_img{
+    	grid-area: img;
+        position: relative;
+        z-index: 2;
+    
+    }
+}
 ```
-@media not|only mediatype and (mediafeature and|or|not mediafeature) {
-  Css-code
-  
-@media only screen and (max-width: 600px) {
-  body {
-    background-color: lightblue;
-  }
-```
-
-
-@media rule
-- define different style rules for different media types.
-- Examples: You could have one set of style rules for computer screens, one for printers, one for television-type devices, and so on.
-
-Media Queries
-- Instead of looking for a type of device, they look at the capability of the device.
-- such as:
-    - width and height of the viewport
-    - width and height of the device
-    - orientation (is the tablet/phone in landscape or portrait mode?)
-    - resolution
-- Using media queries are a popular technique for delivering a tailored style sheet to desktops, laptops, tablets, and mobile phones (such as iPhone and Android phones).
