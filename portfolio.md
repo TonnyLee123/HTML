@@ -193,7 +193,7 @@ body{
 /*當螢幕大小>=600px, 執行下列*/
 @media(min-width: 600px) {
 	.about-me{
-    	display: grid;
+    	display: grid; /*section 變成 grid container*/
         grid-template-columns: 1fr 200px;
         grid-template-area:
         	"title img"
@@ -204,9 +204,11 @@ body{
     
     .section__title--about{
     	grid-area: title;
+        border: 1px solid red;
     }
     
     .section__subtitle--about{
+    	border: 1px solid red;
     	grid-colum: 1/-1;
         grid-row: 2;
         position: relative;
@@ -217,6 +219,7 @@ body{
     }
     
     .about-me_img{
+    	border: 1px solid red;
     	grid-area: img;
         position: relative;
         z-index: 2;
