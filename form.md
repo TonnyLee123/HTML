@@ -61,3 +61,22 @@
   <input type="submit" value="Submit">
 </form> 
 ```
+# 其他 form elements
+## \<select>
+- Drop-down list
+```html
+<form>
+  <label for="cars">Choose a car:</label>
+  <select id="cars" name="cars">
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+  </select>
+  <input type="submit">
+</form>
+```
+![image](https://user-images.githubusercontent.com/90739897/162145511-3598fc8a-613e-414a-bf56-f9130906b452.png)
+
+##
+##
+##
+##
