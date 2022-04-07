@@ -20,6 +20,7 @@
 
 ## 3. \<input>
 ### a. Text Fields
+- \<input type="text">
 - Displays a single-line text input field
 ```html
 <form>
@@ -28,6 +29,7 @@
 </form>
 ```
 ### b. Radio Buttons(單選按鈕)
+- \<input type="radio">
 - 注意 value
 ```html
 <form>
