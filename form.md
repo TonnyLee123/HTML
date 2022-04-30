@@ -22,6 +22,7 @@
 ### a. Text Fields
 - \<input type="text">
 - Displays a single-line text input field
+-  to reference form data after a form is submitted.
 ```html
 <form>
   <label for="fname">First name:</label><br>
